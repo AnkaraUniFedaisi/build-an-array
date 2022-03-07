@@ -1,5 +1,6 @@
 import numpy as np
-
+#build ana array of the average of weights each weekend
+#the weight scheme:
 daily_weight = 185 - np.arange(5 * 7) / 5
 print(daily_weight)
 
